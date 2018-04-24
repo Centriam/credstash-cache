@@ -4,6 +4,8 @@
 **/.cache/
 env
 venv
+*.egg-info
+dist/
 
 # Other metadata
 .DS_Store

@@ -4,8 +4,8 @@ import codecs
 from setuptools import setup, find_packages
 
 setup(
-    name='cntrm-credstash',
-    version='0.0.1',
+    name='credstash-cache',
+    version='0.0.2',
     description="Cache credstash secrets into memory.",
     keywords='credstash cache'.split(),
     author='Mike Bjerkness',

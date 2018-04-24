@@ -49,8 +49,3 @@ def get_secret(key, table=None, region='us-east-1'):
         secret = credstash.getSecret(key, table=table, region=region)
         _put_local(secret, key, table, region)
     return secret
-
-
-if __name__ == '__main__':
-    print("mike.secret: {0}".format(get_secret('mike.test')))
-    print("cwc.mike.secret: {0}".format(get_secret('cwc.mike.secret', 'cwc')))
