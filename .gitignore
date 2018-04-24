@@ -1,0 +1,16 @@
+# Python/Django caches and binaries
+*.pyc
+**/__pycache__/
+**/.cache/
+env
+venv
+
+# Other metadata
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
+.emacs.*
+.python-version
+*.iml
